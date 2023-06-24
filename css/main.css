@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+/*Students:
+1]Vilas Desai  -  200522471
+2]Udaykumar Patel  -  200522548	
+3]Bishnu Bohora  -  200519767
+*/
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 40px;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .container{
+     display: flex;
+  }
+
+  #container > div{
+    flex: 1;
+    margin-right: 10px; 
+  }
+  
+  #storyContainer {
+    margin: 40px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    font-size: 20px;
+  }
+   
+.noun{
+    font-size: 2em;
+    width: 22%;
+    background-color: purple;
+  }
+
+.verbs{
+    font-size: 2em;
+    width: 22%;
+    background-color: skyblue;
+  }
+.adj{
+    font-size: 2em;
+    width: 22%;
+    background-color: green;
+  }
+.nou{
+    font-size: 2em;
+    width: 22%;
+    background-color: orange;
+  }
+.places{
+    font-size: 2em;
+    width: 22%;
+    background-color: pink;
+  }
+  .buttons{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 10px;
+  }
+  .buttons .nounBt{
+      background-color: rgb(207, 147, 207);
+  }
+  .buttons .verbsBt{
+      background-color: rgb(136, 226, 233);
+  }
+  .buttons .adjectiveBt{
+      background-color: rgb(148, 207, 147);
+  }
+  .buttons .noun1Bt{
+      background-color: rgb(227, 218, 142);
+  }
+  .buttons .placesBt{
+      background-color: rgb(124, 87, 124);
+  }
